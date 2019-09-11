@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 03e3baec5088f0348bd00a74bef12344
+timeCreated: 1488981831
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GN-Kin-iro_SansSerif
+  fontNames:
+  - GN-Kin-iro_SansSerif
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3dbc640cd7ba1f7468843847649ee7cf
+timeCreated: 1489241241
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ArawasuKT
+  fontNames:
+  - ArawasuKT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9c96ec254a4997343a11e05355fb5838
+timeCreated: 1489971700
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kikakana 21 Rounded
+  fontNames:
+  - Kikakana 21 Rounded
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

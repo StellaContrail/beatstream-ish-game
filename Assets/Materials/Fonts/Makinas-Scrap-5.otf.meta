@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2c9b3251b8a2d3e4a9fa9b86a935c404
+timeCreated: 1489972485
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Makinas
+  fontNames:
+  - Makinas
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
