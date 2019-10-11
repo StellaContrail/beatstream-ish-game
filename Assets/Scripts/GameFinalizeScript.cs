@@ -6,18 +6,22 @@ using UnityStandardAssets.ImageEffects;
 
 public class GameFinalizeScript : MonoBehaviour {
 
+    // wasPlaying becomes true when music finishes
     bool wasPlaying;
     public GameObject fadeHandler;
     public float fadeOutDuration = 1f;
 
     public GameObject mainCamera;
 
+    // didLaunch becomes true when scene is shifting
     bool didLaunch;
+    AudioSource music;
 
     // Use this for initialization
     void Start () {
         didLaunch = false;
         wasPlaying = false;
+        music = gameObject.GetComponent<AudioSource>();
     }
 
     void ChangeBlurDensity (float _aperture) {
@@ -46,9 +50,10 @@ public class GameFinalizeScript : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (!wasPlaying && gameObject.GetComponent<AudioSource> ().isPlaying) { wasPlaying = true; }
+        // 画面からフォーカスがズレるとPlayingが止まる現象を解決したい
+        if (!wasPlaying && music.time >= music.clip.length) { wasPlaying = true; }
 
-        if (!didLaunch && wasPlaying && !gameObject.GetComponent<AudioSource> ().isPlaying) {
+        if (!didLaunch && wasPlaying) {
             didLaunch = true;
             if (StoreScore.maxCombo_score < StoreScore.combo_score) {
                 StoreScore.maxCombo_score = StoreScore.combo_score;
