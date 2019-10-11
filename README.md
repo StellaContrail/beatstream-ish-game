@@ -1,12 +1,12 @@
-# beatstream-like-game
-Music game which notes comming from left, right, up, and down
-
-
-Menu  
+# BeatStream-Like Music Game
+## Concepts  
+Unlike most music games, music notes come from every direction in this game.  
+## Screenshots
+Menu Screen  
 ![menu](menu.png)  
   
-Play  
-![Play](playing.png)  
+Play Screen  
+![Play](playing.gif)  
   
-Result  
+Result Screen  
 ![Result](result.png)  
